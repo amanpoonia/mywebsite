@@ -137,9 +137,9 @@
   <script type="text/javascript">
     var chatroom = new window.Chatroom({
       host: "http://localhost:5005",
-      title: "Chat with Mike",
+      title: "Chat with us",
       container: document.querySelector(".chat-container"),
-      welcomeMessage: "Hi, I am Mike. How may I help you?",
+      welcomeMessage: "Hi, I am aman. How may I help you?",
       speechRecognition: "en-US",
       voiceLang: "en-US"
     });
