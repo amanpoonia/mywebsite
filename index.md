@@ -133,18 +133,18 @@
     </script>
     <div class="chat-container"></div>
 
-  <script src="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.js"/></script>
-  <script type="text/javascript">
-    var chatroom = new window.Chatroom({
-      host: "http://localhost:5005",
-      title: "Chat with us",
-      container: document.querySelector(".chat-container"),
-      welcomeMessage: "Hi, I am aman. How may I help you?",
-      speechRecognition: "en-US",
-      voiceLang: "en-US"
-    });
-    chatroom.openChat();
-  </script>
+    <script src="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.js"/></script>
+    <script type="text/javascript">
+        var chatroom = new window.Chatroom({
+        host: "http://localhost:5005",
+        title: "Chat with us",
+        container: document.querySelector(".chat-container"),
+        welcomeMessage: "Hi, I am aman. How may I help you?",
+        speechRecognition: "en-US",
+        voiceLang: "en-US"
+        });
+        chatroom.openChat();
+    </script>
 
 </body>
 </html>
