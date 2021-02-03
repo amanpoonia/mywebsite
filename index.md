@@ -131,8 +131,5 @@
 
     </script>
 
-
-    ABCDEF
-    <a href=""></a>
 </body>
 </html>
